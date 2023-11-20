@@ -3,7 +3,7 @@ import pandas as pd
 
 @st.cache_data
 def load_data():    
-    df = pd.read_csv('historique-des-adjudications/data.csv', sep='|')
+    df = pd.read_csv('data.csv', sep='|')
     
     return df
 
